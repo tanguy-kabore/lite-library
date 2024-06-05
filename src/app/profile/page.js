@@ -70,7 +70,7 @@ const Profile = () => {
             <div className={styles.profileDiv}>
                 <div className={styles.profileContainer}>
                     {/* Titre de la section du profil */}
-                    <h2 className={styles.profileTitle}>Profile</h2>
+                    <h2 className={styles.profileTitle}>Profil</h2>
 
                     {/* Formulaire de mise à jour du profil */}
                     <form onSubmit={handleUpdateProfile} className={styles.form}>
@@ -95,7 +95,7 @@ const Profile = () => {
 
                         {/* Champ pour modifier le nom d'affichage */}
                         <label className={styles.formLabel}>
-                            Display Name:
+                            Nom utilisateur:
                             <input
                                 type="text"
                                 value={displayName} // Valeur contrôlée par l'état displayName
@@ -109,7 +109,7 @@ const Profile = () => {
                         {error && <p className={styles.error}>{error}</p>}
 
                         {/* Bouton pour soumettre le formulaire de mise à jour du profil */}
-                        <button type="submit" className={styles.formButton}>Update Profile</button>
+                        <button type="submit" className={styles.formButton}>Mettre à jour le Profil</button>
                     </form>
                 </div>
             </div>
