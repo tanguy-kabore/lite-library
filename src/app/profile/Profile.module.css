@@ -1,0 +1,125 @@
+.profileContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profileDiv {
+    margin-top: 20px;
+}
+
+.profileTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLabel {
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.formInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.formInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.formButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.photoContainer {
+    position: relative;
+    margin: 20px 0;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #007bff;
+    transition: opacity 0.3s ease;
+}
+
+.profileImage:hover {
+    opacity: 0.8;
+}
+
+.profileImage::after {
+    content: 'Change Photo';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: none;
+}
+
+.photoContainer:hover .profileImage::after {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .profileContainer {
+        width: 90%;
+    }
+
+    .profileImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .formButton {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

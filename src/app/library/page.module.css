@@ -1,0 +1,53 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1{
+    margin-top: 40px;
+}
+
+.libraryItem {
+    display: flex;
+    flex-direction: column; /* Affichage en colonne */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.fileDetails {
+    margin-top: 10px; /* Espacement entre les détails du fichier */
+}
+
+.fileName {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.fileSize {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.fileCategory {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.fileActions {
+    display: flex;
+    align-items: center;
+    margin-top: auto; /* Aligner les actions en bas */
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}

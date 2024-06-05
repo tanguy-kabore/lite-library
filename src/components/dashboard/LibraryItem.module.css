@@ -1,0 +1,48 @@
+/* LibraryItem.module.css */
+
+.libraryItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.fileDetails {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.fileName {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.fileSize {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.fileCategory {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.fileActions {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Alignement à droite */
+}
+
+.actionIcon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #333; /* Couleur sombre */
+}
+
+.actionIcon:hover {
+    color: #000; /* Couleur sombre au survol */
+}

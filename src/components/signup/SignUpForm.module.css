@@ -1,0 +1,50 @@
+/* src/components/SignUpForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form h2{
+  color: black;
+}
+
+.form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+.form button {
+  background-color: #4285F4;
+  /* Couleur de fond Google */
+  color: white;
+  /* Texte en blanc */
+  border: none;
+  /* Pas de bordure */
+  padding: 10px 15px;
+  /* Espacement intérieur */
+  text-align: center;
+  /* Texte centré */
+  display: inline-block;
+  /* Type d'affichage */
+  font-size: 16px;
+  /* Taille du texte */
+  margin: 4px 2px;
+  /* Marge externe */
+  transition-duration: 0.4s;
+  /* Animation */
+  cursor: pointer;
+  /* Curseur en forme de main */
+  border-radius: 3px;
+  /* Bords arrondis */
+  font-family: 'Roboto', sans-serif;
+  /* Police de caractère */
+  cursor: pointer;
+}
+
+.form button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  /* Effet d'ombre au survol */
+}

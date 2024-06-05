@@ -1,0 +1,14 @@
+/* src/app/auth.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}

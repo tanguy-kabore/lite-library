@@ -1,0 +1,17 @@
+/* StorageUsage.module.css */
+.storageUsageContainer {
+    margin: 20px 0;
+}
+
+.storageBar {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.storageUsed {
+    height: 100%;
+    background-color: #76c7c0;
+}

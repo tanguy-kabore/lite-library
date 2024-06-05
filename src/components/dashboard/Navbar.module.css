@@ -1,0 +1,36 @@
+/* src/components/dashboard/Navbar.module.css */
+.navbar {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* Aligne tous les éléments à droite */
+    gap: 10px;
+    /* Ajoute un petit espace entre les éléments */
+    align-items: center;
+    /* Centre verticalement les éléments */
+}
+
+.user {
+    font-weight: bold;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c82333;
+}

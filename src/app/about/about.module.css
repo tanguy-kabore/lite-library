@@ -1,0 +1,47 @@
+.main {
+  font-family: 'Arial, sans-serif';
+  color: #333;
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.teamImage {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.link {
+  color: #6200ea;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

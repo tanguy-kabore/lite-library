@@ -1,0 +1,37 @@
+/* FileItem.module.css */
+.fileItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.fileDetails {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.fileName {
+    font-weight: bold;
+}
+
+.fileSize {
+    color: #888;
+}
+
+.fileCategory {
+    color: #555;
+    font-style: italic;
+}
+
+.fileActions {
+    display: flex;
+    gap: 10px;
+}
+
+.icon,
+.actionIcon {
+    cursor: pointer;
+}

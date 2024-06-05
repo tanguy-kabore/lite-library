@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.uploadArea {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fileInput {
+    display: none;
+}
+
+.categorySelect {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
